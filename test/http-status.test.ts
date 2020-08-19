@@ -1,11 +1,12 @@
-import {HttpStatus} from "../src/HttpStatus";
+import {HttpStatus, httpStatusTextByCode} from "../src/HttpStatus";
 
 test("textByCode()", () => {
-    expect(HttpStatus.textByCode(200)).toBe("OK");
-    expect(HttpStatus.textByCode("200")).toBe("OK");
-    expect(() => HttpStatus.textByCode("xxxx")).toThrow();
-    expect(() => HttpStatus.textByCode(9999)).toThrow();
-    expect(() => HttpStatus.textByCode(undefined as any)).toThrow();
-    expect(() => HttpStatus.textByCode(null as any)).toThrow();
-    expect(() => HttpStatus.textByCode({} as any)).toThrow();
+    expect(HttpStatus.OK).toBe(200);
+    expect(httpStatusTextByCode(200)).toBe("OK");
+    expect(httpStatusTextByCode("200")).toBe("OK");
+    expect(() => httpStatusTextByCode("xxxx")).toThrow();
+    expect(() => httpStatusTextByCode(9999)).toThrow();
+    expect(() => httpStatusTextByCode(undefined as any)).toThrow();
+    expect(() => httpStatusTextByCode(null as any)).toThrow();
+    expect(() => httpStatusTextByCode({} as any)).toThrow();
 });
