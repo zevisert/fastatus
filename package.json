@@ -1,6 +1,6 @@
 {
   "name": "http-status-ts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "http-status-ts",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
