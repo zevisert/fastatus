@@ -125,7 +125,7 @@ const httpStatusText: Record<string, string> = {
     [HttpStatus.LOOP_DETECTED]: "Loop Detected",
     [HttpStatus.NOT_EXTENDED]: "Not Extended",
     [HttpStatus.NETWORK_AUTHENTICATION_REQUIRED]: "Network Authentication Required",
-}
+};
 
 export function httpStatusTextByCode(httpStatusCode: number | string): string {
     if (!httpStatusCode || !httpStatusCode.toString) {
