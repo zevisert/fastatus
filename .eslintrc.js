@@ -1,8 +1,7 @@
 module.exports = {
     root: true,
     env: {
-        node: true,
-        commonjs: true
+        node: true
     },
     extends: [
         "eslint:recommended",
