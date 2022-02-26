@@ -3,7 +3,7 @@
 ![npm](https://img.shields.io/npm/v/http-status-ts)
 
 ## What is http-status-ts?
-http-status-ts is a tiny helper library that provides a convenient list of HTTP status codes for use with TypeScript. It is isomorphic and can be used in NodeJs or in a browser. <br />
+http-status-ts is a tiny helper library that provides a convenient list of HTTP status codes for use with TypeScript. It is isomorphic and can be used with NodeJs or in a browser. <br />
 
 ## Installation
 Install the [http-status-ts package](https://www.npmjs.com/package/http-status-ts) from npm. <br/>
