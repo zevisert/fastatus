@@ -1,6 +1,6 @@
 {
   "name": "http-status-ts",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "http-status-ts",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
@@ -22,7 +22,11 @@
     "type": "git",
     "url": "git+https://github.com/rmuchall/http-status-ts.git"
   },
-  "keywords": ["http", "status", "codes"],
+  "keywords": [
+    "http",
+    "status",
+    "codes"
+  ],
   "author": "Rob Muchall <rmuchall@protonmail.com>",
   "license": "MIT",
   "bugs": {
