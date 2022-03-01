@@ -22,7 +22,7 @@
     "type": "git",
     "url": "git+https://github.com/rmuchall/http-status-ts.git"
   },
-  "keywords": [],
+  "keywords": ["http", "status", "codes"],
   "author": "Rob Muchall <rmuchall@protonmail.com>",
   "license": "MIT",
   "bugs": {
