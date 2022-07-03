@@ -1,7 +1,7 @@
 {
-  "name": "http-status-ts",
-  "version": "1.0.1",
-  "description": "http-status-ts",
+  "name": "fastatus",
+  "version": "1.0.0-next.0",
+  "description": "fastatus",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "types": "./types/index.d.ts",
@@ -20,19 +20,23 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rmuchall/http-status-ts.git"
+    "url": "git+https://github.com/zevisert/fastatus.git"
   },
   "keywords": [
     "http",
     "status",
-    "codes"
+    "codes",
+    "starlette",
+    "websocket",
+    "iana",
+    "fastapi"
   ],
-  "author": "Rob Muchall <rmuchall@protonmail.com>",
+  "author": "Zev Isert <dev+fastatus@zevisert.ca>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rmuchall/http-status-ts/issues"
+    "url": "https://github.com/zevisert/fastatus/issues"
   },
-  "homepage": "https://github.com/rmuchall/http-status-ts#readme",
+  "homepage": "https://github.com/zevisert/fastatus#readme",
   "devDependencies": {
     "@types/jest": "28.1.1",
     "@types/node": "17.0.42",
